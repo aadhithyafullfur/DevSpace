@@ -1,0 +1,357 @@
+import { Github, Linkedin, Mail } from "lucide-react";
+
+export const resumeData = {
+  personal: {
+    name: "Aadhithya R",
+    role: "Software Developer",
+    phone: "+91 9629628246",
+    email: "aadhithyaa120@gmail.com",
+    location: "Erode, India",
+    social: [
+      { name: "GitHub", url: "https://github.com/aadhithyafullfur", icon: Github },
+      {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/aadhithya-r-077a7a320/",
+        icon: Linkedin,
+      },
+      { name: "Email", url: "aadhithyaa120@gmail.com", icon: Mail },
+    ],
+    about: {
+      bio: [
+        "I’m Aadhithya R, an AI & Software Developer from Erode, India, building scalable, secure, and intelligent digital systems.",
+        "My work focuses on high-performance architectures, cloud-native applications, and AI-driven solutions that operate reliably in real-world environments.",
+        "I approach development with a systems mindset—blending engineering, data, and product thinking to create solutions that are efficient, resilient, and meaningful.",
+      ],
+      quote: "From ideas to intelligent systems. From systems to real impact.",
+      tagline: "Build. Scale. Secure. Evolve.",
+    },
+
+    mission:
+      "To engineer intelligent and scalable software that combines performance, security, and simplicity—creating systems that are built for real-world impact and long-term reliability.",
+
+    principles: [
+      {
+        title: "Think in systems",
+        description: "Design solutions that are scalable, maintainable, and future-ready.",
+      },
+      {
+        title: "Build with precision",
+        description: "Write clean, efficient code that prioritizes performance and clarity.",
+      },
+      {
+        title: "Engineer for trust",
+        description: "Create secure, reliable systems that users and businesses can depend on.",
+      },
+    ],
+
+    status: "Engineering intelligent systems.",
+  },
+  hero: {
+    name: "Aadhithya R",
+    role: "AI & Software Developer",
+    mission: "Engineering intelligent, scalable solutions powered by data.",
+    specialties: ["Software Development", "Deep Learning", "Data Analysis"],
+    principles: [
+      "Think in systems",
+      "Data drives decisions",
+      "Automate everything possible",
+    ],
+    status: "Building intelligent systems.",
+  },
+  experience: [
+    {
+      role: "Software Developer Intern",
+      company: "Vectora Labs",
+      duration: "Jun 2025 – Present",
+      description: [
+        "Built scalable frontend dashboards with React and Tailwind CSS for data visualization.",
+        "Collaborated with backend engineers to integrate REST APIs and authentication workflows.",
+        "Improved page performance and accessibility across desktop and mobile views.",
+      ],
+    },
+    {
+      role: "Full Stack Developer",
+      company: "Aaraa Infra",
+      duration: "Jan 2024 – May 2025",
+      description: [
+        "Developed a full-stack e-commerce platform with React, Node.js, and MongoDB.",
+        "Implemented order tracking, payment workflows, and admin dashboards.",
+        "Dockerized services for deployment and supported CI/CD pipeline automation.",
+      ],
+    },
+  ],
+  education: [
+    {
+      degree: "B.Tech – Artificial Intelligence and Data Science",
+      institution: "Kongu Engineering College, Perundurai",
+      duration: "2023 – 2027",
+    },
+    {
+      degree: "HSC",
+      institution: "PKD Matriculation Higher Secondary School",
+      duration: "2021 – 2023",
+    },
+    {
+      degree: "SSLC",
+      institution: "PKD Matriculation Higher Secondary School",
+      duration: "2020 – 2021",
+    },
+  ],
+  projects: [
+    {
+      name: "Vectora",
+      year: "2026",
+      isFeatured: true,
+      image: "/vectora.png",
+      description:
+        "AI-powered career platform with intelligent job matching, resume parsing, freelance marketplace, and LLM-based insights.",
+      techStack: [
+        "React (Vite)",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT",
+        "Razorpay",
+        "Python",
+        "Gemini API",
+        "Vector Embeddings",
+      ],
+      link: "https://github.com/PRABU-21/Vectora",
+      github: "https://github.com/PRABU-21/Vectora",
+    },
+    {
+      name: "LeadPilot AI",
+      year: "2026",
+      isFeatured: true,
+      image: "/lead-piolte.png",
+      description:
+        "ML-powered lead management platform with real-time engagement tracking and automated conversion prediction.",
+      techStack: ["React", "Node.js", "Express", "MongoDB", "JWT", "Python"],
+      link: "https://github.com/aadhithyafullfur/Hack---PS4",
+      github: "https://github.com/aadhithyafullfur/Hack---PS4",
+    },
+    {
+      name: "AARAA-INFRA",
+      year: "2025",
+      isFeatured: true,
+      image: "/Aara-Infraa.png",
+      description:
+        "Full-stack platform for selling and managing home infrastructure products (windows, doors, and materials) with real-time order processing and billing system. Dockerized for scalable DevOps deployment.",
+      techStack: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Tailwind",
+        "Socket.io",
+        "Docker",
+        "Kubernetes",
+      ],
+      link: "https://github.com/aadhithyafullfur/AaraInfra",
+      github: "https://github.com/aadhithyafullfur/AaraInfra",
+    },
+    {
+      name: "FarmConnect",
+      year: "2025",
+      isFeatured: true,
+      image: "/farmconnect.png",
+      description:
+        "Marketplace platform connecting farmers and buyers with secure transactions and real-time order tracking. Dockerized for deployment and scalability.",
+      techStack: ["React", "Node.js", "Express", "MongoDB", "JWT", "Docker"],
+      link: "https://github.com/aadhithyafullfur/FarmConnect",
+      github: "https://github.com/aadhithyafullfur/FarmConnect",
+    },
+    {
+      name: "QuikCart",
+      year: "2025",
+      isFeatured: true,
+      image: "/quickcart.png",
+      description:
+        "Scalable e-commerce platform with authentication, admin dashboard, REST APIs, and AI chatbot integration. Dockerized for production-ready deployment.",
+      techStack: ["MERN", "Tailwind CSS", "REST APIs", "AI Chatbot", "Docker"],
+      link: "https://github.com/aadhithyafullfur/QUIK-CART",
+      github: "https://github.com/aadhithyafullfur/QUIK-CART",
+    },
+    {
+      name: "Swoosh",
+      year: "2025",
+      isFeatured: true,
+      image: "/swoosh.png",
+      description:
+        "Secure peer-to-peer file sharing platform using QR-based pairing, encrypted transfer rooms, and hybrid microservices architecture.",
+      techStack: [
+        "React",
+        "Tailwind",
+        "Redux Toolkit",
+        "Electron",
+        "Spring Boot",
+        "Spring Security",
+        "MySQL",
+      ],
+      link: "https://github.com/aadhithyafullfur/Swoosh",
+      github: "https://github.com/aadhithyafullfur/Swoosh",
+    },
+    {
+      name: "Traffic Prediction System",
+      year: "2024",
+      image: "/traffic-prediction system.png",
+      description:
+        "Machine learning web application predicting traffic volume using real-time inputs and trained models.",
+      techStack: ["React", "Flask", "scikit-learn", "pandas"],
+      link: "https://github.com/aadhithyafullfur/TRAFFIC-PREDICTING-SYSTEM",
+      github: "https://github.com/aadhithyafullfur/TRAFFIC-PREDICTING-SYSTEM",
+    },
+    {
+      name: "CerebroScan",
+      year: "2024",
+      image: "/brain-tumor-detection.png",
+      description:
+        "Deep learning-based medical imaging system using CNNs to detect brain abnormalities from scan data.",
+      techStack: ["Python", "Deep Learning", "CNN"],
+      link: "https://github.com/aadhithyafullfur/Brain-Tumor-detector",
+      github: "https://github.com/aadhithyafullfur/Brain-Tumor-detector",
+    },
+    {
+      name: "Repo Lens",
+      year: "2025",
+      isFeatured: true,
+      image: "/repolens.png",
+      description:
+        "Developer analytics and visualization platform that tracks GitHub activity, analyzes coding patterns, and provides actionable insights through an interactive cyberpunk-style dashboard.",
+      techStack: [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "GitHub API",
+        "Tailwind CSS",
+        "Chart.js",
+        "REST APIs",
+        "OAuth",
+      ],
+      link: "https://github.com/aadhithyafullfur/RepoLens",
+      github: "https://github.com/aadhithyafullfur/RepoLens",
+    },
+  ],
+  certifications: [
+    {
+      name: "AWS Certified Developer - Associate",
+      provider: "Amazon Web Services",
+      year: "2025",
+    },
+    {
+      name: "ACE Multicloud Network Associate",
+      provider: "Aviatrix",
+      year: "2025",
+    },
+    {
+      name: "AWS Academy Graduate – Cloud Foundations",
+      provider: "Amazon Web Services",
+      year: "2025",
+    },
+    {
+      name: "Certified AppSec Practitioner",
+      provider: "The SecOps Group",
+      year: "2025",
+    },
+    {
+      name: "IBM Full-Stack Software Developer Professional Certificate",
+      provider: "Coursera",
+      year: "2024 (In Progress)",
+    },
+    {
+      name: "React Native - The Practical Guide",
+      provider: "Udemy",
+      year: "2024",
+    },
+  ],
+  achievements: [
+    {
+      title: "HACKSPHERE",
+      year: "2026",
+      subtitle: "1st Place",
+      description: "Won 1st place in HackSphere 2026 Hackathon.",
+    },
+    {
+      title: "BYTS INDIA HACKATHON",
+      year: "2025",
+      subtitle: "Winner & Best Implementation",
+      description: "Awarded for developing a high-impact project.",
+    },
+  ],
+  leadership: [
+    {
+      role: "Executive Member",
+      club: "AI Coding Club",
+      institution: "Kongu Engineering College",
+      year: "2025",
+      image: "/aicc-logo.png",
+    },
+    {
+      role: "Executive Member",
+      club: "IEF Club",
+      institution: "Kongu Engineering College",
+      year: "2025",
+      image: "/ief-logo.png",
+    },
+  ],
+  skills: {
+    languages: [
+      "C",
+      "C++",
+      "Java",
+      "Scala",
+      "JavaScript",
+      "TypeScript",
+    ],
+    frameworks: [
+      "React",
+      "Next.js",
+      "React Native",
+      "Redux",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "NestJS",
+      "Spring Boot",
+      "Play Framework",
+    ],
+    cloud: [
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "MongoDB",
+      "MySQL",
+      "Redis",
+      "Firebase",
+      "Nginx",
+      "Jenkins",
+      "Terraform basics",
+    ],
+    systemDesign: [
+      "Microservices",
+      "REST APIs",
+      "WebSockets",
+      "Event-Driven Systems",
+      "Load Balancing",
+      "Caching",
+      "Fault Tolerance",
+      "API Gateways",
+      "CI/CD",
+      "Containerization",
+      "Message Queues",
+      "Rate Limiting",
+      "Monitoring & Logging",
+    ],
+    tools: [
+      "JWT",
+      "OAuth2",
+      "API Security",
+      "Vulnerability Testing",
+      "Burp Suite",
+      "Git",
+      "Postman",
+      "Figma",
+      "Linux CLI",
+    ],
+  },
+};
